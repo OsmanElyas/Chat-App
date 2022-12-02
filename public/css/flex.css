@@ -3,9 +3,9 @@
 .header-container {
     flex: 1;
     padding: 0px ;
-    gap: 8px;
+    gap: 16px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     margin-bottom: 24px;
     background-color: black;

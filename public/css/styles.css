@@ -1,33 +1,73 @@
-.users{
-    background-color: black;
-    color: white;
+html {
+    margin: 0;
+    min-height: 100%;
+    background-color: #1f2937;
+    scroll-behavior: smooth;
 }
 
-html,body {
-    height: 100%
-}
-
-.row-height {
-    height: 100%;
-    text-align: center;
-    padding-top: 25px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-
-/*get color to fill whole column*/
-.container-fluid {
+.header-container {
+    flex: 1;
+    padding: 0px ;
+    gap: 8px;
     display: flex;
-    flex-direction: column;
-    height: 100%;
-}
-
-.row {
-    flex: 1
-}
-
-/*Change navbar color to black*/
-.navbar-correct{
-    background-color: black;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 24px;
     
 }
+
+ul {
+    display: flex;
+    gap: 16px;
+    list-style-type: none;
+    font-size: 18px;
+    color: #E5E7EB;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 900;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+}
+
+  .logo, a {
+    color: #f9faf8;
+}
+
+  a {
+    /* this removes the line under our links */
+    text-decoration: none;
+  }
+
+img{
+    width: 500px;
+    height: 500px;
+    padding-bottom: 20px;
+    border-radius: 50%;
+}
+
+.hero-container{
+    display: flex;
+    align-items: center; 
+    justify-content: center;  
+}
+
+.hero-container p {
+    font-size: 18px;
+    
+}
+
+ h1{
+    font-size: 48px;
+    margin: 0;
+    font-family: "Roboto", arial;
+}
+
+.left-side {
+    text-align: center;
+    flex-basis: 600px;
+    padding: 100px;
+    
+}
+
